@@ -14,3 +14,180 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* css for top part */
+.top {
+  padding-bottom: 15px;
+  border-bottom: 1px solid gray;
+}
+
+.top-line {
+  border: 2px solid rgb(103, 11, 201);
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.top-heads {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* css for bottom part */
+.main {
+  flex: 1;
+  display: flex;
+  overflow: auto;
+}
+
+.menu {
+  width: 450px;
+  border-right:1px solid gray;
+  display: flex;
+  flex-direction: column;
+}
+
+.note {
+  flex: 1;
+  overflow: auto;
+}
+
+/* sidebar */
+
+.menu-bar {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+
+.list {
+  flex: 1;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  overflow: auto;
+}
+
+.note-link {
+  height: 100px;
+  width: 100%;
+  text-align: left;
+}
+
+/* css for the text view and content */
+
+.content-bar {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+
+.content-text {
+  padding: 10px;
+  overflow: auto;
+}
+
+/* css for edit content */
+
+.edit-bar {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+
+.title-bar {
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.edit-buttons {
+  display: flex;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+button:hover {
+  background-color: lightgray;
+}
+
+.save-button {
+  font-size: large;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.edit-button {
+  font-size: large;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.del-button {
+  font-size: large;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.menu-button {
+  font-size: large;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.new-note {
+  font-size: xx-large;
+  font-weight: bold;
+  padding: 10px;
+}
+
+button.note-link {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.notes-head {
+  align-self: center;
+  padding-left: 10px;
+}
+
+.view-head {
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.note-title {
+  font-size: xx-large;
+}
+
+.view-buttons {
+  display: flex;
+}
+
+.title-input {
+  padding-top: 5px;
+  background: none;
+  font-size: x-large;
+  font-weight: 500;
+}
+
